@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Golden Crown</h1>
+        <p>Venha se hospedar no melhor hotel do sul do Brasil. Tenha conforto e gentileza <br> o tempo todo. Faça a sua reserva na Golden Crown</p>
+
+        <button id="explorar">Explorar</button>
+
+        <div class="navbar">
+            <img src="/Imagens/logo.png" id="logo">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Localização</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Reservar</a></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <button id="btnEntrar">Entrar</button>
+        <button id="btnInsc">Inscreva-se</button>
+
+        <div class="modal-usuario" id="modalEntrar">
+            <h4>Entrar</h4>
+            <p class="sair" id="sairModal_1">X</p>
+            <p class="indicador">Email: </p>
+            <input type="email" class="entrar" placeholder="Email" id="idEntrar">
+            <p class="indicadorSenha">Senha: </p>
+            <input type="password" class="entrar" placeholder="Senha" id="idSenha">
+            <button id="btnEntrar_2">Entrar</button>
+        </div>
+
+        <div class="modal-usuario" id="modalCriarUsuario">
+            <h4>Criar usuário</h4>
+            <p class="sair" id="sairModal_2">X</p>
+            <p class="indicador">Email: </p>
+            <input type="email" class="entrar" placeholder="Email" id="idcriarUsuario">
+            <p class="indicadorSenha">Senha: </p>
+            <input type="password" class="entrar" placeholder="Senha" id="idSenha_1">
+            <p class="indicadorSenha">Repita a senha: </p>
+            <input type="password" class="entrar" placeholder="Senha" id="idSenha_2">
+            <button id="btnEntrar_2">Entrar</button>
+        </div>
+    </header>
+    <script src="scrpits.js"></script>
+</body>
+</html>
